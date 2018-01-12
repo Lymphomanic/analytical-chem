@@ -1,0 +1,13 @@
+PIPE DREAM GOAL: I feed friend computer the raw data from a titration or standardization experiment. Friend computer spits out a table with all the processed titration data. I don't have to do any math, I'm very happy.
+Thought - standardization is different than titration (standardization has unknown being added, titration has known being added). Different functions? titrationdata[ ]:= & standarddata[ ]:=. If they're both in the same notebook, make sure to keep the variable names straight. 
+What calculation steps are involved in titration data?
+	-molecular weight of titrant (+ error)
+	-molecular weight of analyte (+ error)
+	-change in volume of pipet (+ error)
+	-molarity of analyte (+ error)
+	-avg molarity of analyte (+ error)
+	-standard deviation
+	-relative standard deviation
+	-95% confidence interval
+	
+	
